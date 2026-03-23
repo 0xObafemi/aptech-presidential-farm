@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Farm</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <a href="#" class="logo">Obasanjo Farms</a>
+        <ul class="nav-links">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#produce">Produce</a></li>
+            <li><a href="#harvest">Past Harvest</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <header id="header" class="hero">
+        <h1>Presidential food for your excellency</h1>
+        <p>Organic, sustainable and 100% local produce. Made healthy for you.</p>
+        <a href="#produce" class="btn">View our harvest</a>
+    </header>
+
+    <main class="container">
+        <h2 id="produce" class="section-title">Favourites
+
+        </h2>
+
+        <section class="product-grid">
+            <article class="product-card">
+                <img src="https://www.gardenia.net/wp-content/uploads/2025/09/ChatGPT-Image-Sep-29-2025-07_05_59-PM.jpg"
+                    alt="cassava" class="product-image">
+                <div class="product-info">
+                    <h3>Cassava</h3>
+                    <p>Perfect best Cassava products in Nigeria</p>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUSExMWFhUXGBgWGBgWGB0aGBgXFxYYFxgXGBoaHSggGBolHRgXITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OFxAQGi0fHR0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tKy0tLf/AABEIAKgBLAMBIgACEQEDEQH/xAAcAAACAwEBAQEAAAAAAAAAAAACAwABBAUGBwj/xAA+EAABAwIEAwYFAgQEBgMAAAABAAIRAyEEMUFREmFxBSKBkaHwBhMysdHB4RRCUvEHYnKSFSNDY4KistLi/8QAGQEBAQEBAQEAAAAAAAAAAAAAAQACAwQF/8QAHhEBAQEAAgIDAQAAAAAAAAAAAAERAhIhUQMxQRP/2gAMAwEAAhEDEQA/AOyrlGAjDffsL5mveFoTgFTQiaFJYChVq5SEa1HwoeisO3UhQrAQh3JFxKQXsG5VtAVGUN0E4FVPJJkqTzVqw7iVcSVPNCXjdWrDS9C5ySarUp2IajTjSX81XFzWb+IESsOIxbp0A05pnlY6VTFNGt1hxOKcbNsDn0/KxfNM3aCYkCbdScs0LeIyJkkTAsInY/ZOEVZ3CNL6Z6ax+qz1qzuAGwBjK/8A67DdJpuB7w1MmZi2eekC/VLxTgYIknKA2GXuIJFxyC0AVq7pMExmTaTGUTC0nGGblpEWk5kC4A00vEmVzn1A2SIcYkaDnzBjkc1TsO61ruu0DLMWP4SnQ/j+Gm2BwkiJdMxy153XnO2WgkOAIJ7ruuy6uNpktc+o7h4YtzJkAcz7lcrE4hrg65iRmMw4X8RH9kxmua6o6mQ5rri8XgWiRvmpW7SD6fC8cRuZi8kzIKqu1pkj1K472FruHiN7j8ea6Ty524+lfAFUmg+T3RUIaD/paT0zXp/FeT+CcOBRJk3cDnyGmn6r0ll5uV2134/TRbdBUISj0VOA1CEa2oFTnwqFIc/fihdQCkoV5ygqvnDkgdSKvh5KTcAiCQHJjD0WmTeJWKiFsaQiazmrEMOKtriqDIV8SsWrklCAVYNtUxhVi0uTsoSU4nkqPRWLSrqFh3RCoMkQRi0osQcPNMfUAzKQcROV/RWNCLRuUD2AZystfFPkiI/zTM8lhrVjNyTt+3vVOJtr1WiIBJ6xyz0S31OHMQDeN45rntxUEiALSdDJOR5qUsTMXkDWBnNh6KwtFbGZcImbWznU8tp8VmdS+XcGHOmx0vcz/NMqmtdwgtkunIatJzvY+KPEUAWDLibJMmwyy32iJskCZUAhoMmZPFrpA2AnTn446ocS8lzQGnLSJyJ1H90o4tzieneccoiIMxlnfdJ4g0OAuYAEkd60xESMz7hIpprgyBF4EgzcXmRrGmXVKq1jLeBskzIyB2k6De5WYNEEkHhkBrRlzPIefTYatUBx4nHhF2xczE3cbADLxyWsZ1ZZw8Um4zAEH6shYEmP1T8ZiWUw0Zuz4Qcpzv0kWiy5mHPEXOIJPM3PNx/FkwuIbwwJAnMCLCIGX6qxaLGvL+84iTHdGUXgW196ysWLBbxNMAwM9NRGiL544QdZi+0Z8yuZjnlxknlmtSM0urUvYZ29PRZsXhnFnFqLj8DyzWikLfb9kfHpomXBmvUf4c1SW1W2I7jp14u8CPIBewcdwuP8Kdjtw9H6w8vh8jKIsBfTddguXHn5tdePiIHjZW0yckB6/f8ACjH3z9FktAYjICzfOCF1feffiqMmVSkGohNXkepIj7ovmDYeYSWsxmfsraAqj37KdS9+4UEHRG3qrPu37KwkKCLglE1vv2UcIS2sKYCUtvu4/Cuefr+EoyUmqEutjQDHCdeVxpe65+IxniZAjL1m3XmoyHA8M94W0zQVMSSTtGQP46rKDccr3ufT7qOrg98Z9dM5v90NYuroOHS5H7i6CpYEk8QMTE+kXKmPrBvCYBGZJORkXXLdiDJMnhMa2OWh00nwSmzE4kcMwBcABsXnrosnzu8OLU+fSBYe9EGMrNbwESZsdp1Jy0lKrVCXHhBiDkDFhEQbkZpxaOtTkwDPe3sRFwfykVsRDuHneco/y3v1hWXBzyPmd0gWFhIGXKNlmxNYtLYv4RMjWRzytkVQV029oFpDWkX2ETfIEzOvvLI2JDQS4yRwjS1zMmG+ua59ccBbe512tBMWnogo4w8LiHGZyaLuvv5nVOLWitV4A5pdxOm4zgZbetvFZuKIE3mSZjPlmelkDHBrXSCX1NyZI6+XvPO85i/FG+boy56W55JjNOxmKyaLwQ4kg5xcRsJPmgqVQLu77zBaAbRPLnotmD+HX1AHP7gm4g8R6xAHTmuxhexKDf5csy6SeRuY32VqyvNOxZBmwk5C8OGw3SKvEe84xfQ6nTp06L2rKjAQwUwIsALDqIK5ePrNJhwBvAhojpcRz8Eyix5GpipAEiG5c/2ugrtkDz8fK66faeBBJ4RkdBE+AGq5hcQS06W5WWmUYZtt7zVDOIVNkZAXXtP8OuwaOJbifmN43tFMNvdvF8yT6DyQY63ZLg2hSaLwxsFuRtmFobiORnmpiOxXUKYYJAaIgZHpsuJUxgBIJIIXPGuzt/M5DzVPqHYef7Lhfx43d5oDjTu5XVdnb+ZyCr53Ie/BcIYl2580bKx1Kuo7O38wbBEa3Rcim/mfv91r/ifcKxa9U1rd0wNaNVTT/wBs+n5RNf8A9t3p+UFIG/qq4m7n1TAT/R5kKwD/AEjz/ZSKDm8/Iq4ab8JTW8WzfM/hCa2Y99EHEFQDSPBc7EV6jiA059IH5Wqs8nhG5sI6SVlFMMudeUef7obnENcQBbPI6wIBI8x7lZHta0wMoNogzaSQMo8Sjxry5wb9HD3jFze0b5XtFuqxY2QBw90RkbjnfkPXyTIrQOrGq0AiIPU53Jvvks9QAFry6RMC+WkHbQ9E0viSTEazG+mp/C5QrBweAAAXCHHvGc7b7Rb6lpl1a9dvAXHvOByvEWnqFzWYwSeMDItbFrAet/eST8yZN3RYyctJjIfzeeqX8zifZt9NTI2804NOpYnIFveOed26R1H3TMR3rkcLc+dwbHXeP2V0qDWvDnnvGczLW+Jz5rBjMYagGt7zAbHKLCAB4BSNIptJc093xkHYAbwPCM1QrhzuBuh+ryjTqseJrfyCJI4p9B06fZSo8U2xPfiY/wBQskBqZF5+kG4MATM65+qlPEXDWEACXFx2jeLDkN81z8TinGGNAy4bAkmTaea9Z8M/DQphtauC6ofpZ/LTOk7u55DwlVUc7s34dfVIe4mmwgOBP1GSbBunjbqvW9n9nUqZLgO8P5jd0AXEnIa2/ElXrwe84RNhGZNzPSLwltrnObEzLhsYmBnaLcrIIhVLibQxpzykjIc7kflYcXSM8APE/wCoz5Ak7kyADtrCBtY8Lg2GlokNFwBxWJG5ve2eq5xxb2ucJ1B4gSZMEzfM94+WtpYKdVrAHhk8Pfk3ImR3ZtxGZy55Fcyq3iAkACDzyGtzeT6LV2rDw3gNhr/9ZGek+zzOIBhBynKCS64tBsJzj2NRmtJqQ0T9MbG5OZOum265+IDZ4+6TJgaEA5kTlb0Sn4kutlv3elh6ZI2OMiTtnAjSM4J/skMVUjmCJknUg6DRd7/Djtp1DGN/oqj5RHMkFp/3AD/yK4lR1yZkHnciNdkXZmLa18gFpEEHUHT7KvHYNfZMR2vRqv8Al8U1BctNiLx7heW+L8FwtNVmYz5hcPDdovq1/mtP/NNwBaYFwPCV6mviW1qPFoQZG2hB5grhl41uyfjwJxruSE4spJaMkTWr0OZzK5K1U3lIpUuS3UaKKYbRJ5rQCro0vfsLU0e/YWNax7YBx5Iflv3HvwT+Hl9lYasNE8HNEGD2f3TwOSLwUmaqALBoJPikvkNAAtaSM5mDfX9slVLFu4oIzuLZA2AO255Aq6LmcTnOgcJIHKADAMR67ai2bXSTCKdMgSGjN0yYHMDV2Qufwk4it3ZHCW2AP8s2vfNvP9VqxOIZxtEGTcWschAJttPhGi5OPcRxNnigFt7ySLANGseN41TIrRMrwSDtoDHFeCNdDA6nZcnF4gsHEW5SIIPdyyIyN53R4mnwtLWzoHOBM2gxkcrenNczEOB4i+d4vAcB6WWpGbScO4OdxOM69YgTyuD5dUms4Oe5gsAc/wBjlcjyWbC4jvRkL+O2aXi6pc0vADWkxGU3GkBaZacJWbJbpcZzJtlGmSn8T8occCTbPS05ZrDh2W4phoOZ3Moar+Lhc7T3+FYtNdiSeHN0ZDMeWugVtcTTktkzfaNBt/dZmYgwWDN3n/dFUxTg35eWX2QVvdwg2uRAytneNDN0l54SCSS51oNzM5AbzoqxlZwAk6DTnbwzyXt/g34fNMHEVxFZwJa0i9Np15OOuoFt1asB8M/Dfyv+dVA+ZEgaMm5uc3abBd6u0tBgEm3KTIseV7lG8taDLr/SBI+ozOR0i/SFndXDWTMzJaAbkCBNhbXbJZaLFO4cRd0ticztF+Z5AFY8ZV4XEXe5sXEm5iABkbaWzHJDiMQRIBg2bMfSTk0fiNeaS7FANJ4iXOkWAmDDQZynYciVqRm1ze0qzg0gZSAYdJmDsLxPnzCxvrAt4YIMkm+YgCDewjhmDMM5rXSY0tcwF0QdMgDe+Wok55DRcmsGiYPibSYsI0/dbY1tpPhsOgi+mYgF1tgB9uix1SI4jYk6c7kDU3uefpKWN4mhpsL8s3C+egCQSC+4gGJA6TwidBl66pgpNTds7mM73In9ZVNxelh1zgZCyuo8SZt9vPyWVsh0i4GWg6pAnP2cfdvBYe0u4Gva7M8JHhb7Qtpff0j0/KViKAewtiDmOo29fNMuDG34R7TayvTe/JpJ0vaI9V7Xtrt+kGzQYSTdwGXPlK+a4LAVJBe0tbYk8spA3XqMNg2sPdLjzJOSzz4zWuN9lMw8mYjlstdLCrRTha6TUaMZ6eHC00sPdaKbFopNWLWpCqVHknikdk51Pn0V8Kza09Y1X7zQhFJUlpOL+hwvlpn4JkpeIBLHC9wYg8kGMV6bXOs/hAI4Z2lot62m9ufm6eBf3qz3l3zDdmfedDG8N4gSL9Su1icXDeGbj6iBlYySLTb7BJwndpkvDGj5j4bN4LzwjLLXL+bkiV0xlxdX5YGpaQ3ujiMkhxI04RJ2hZKmOzOpOh14Rlbc+ifjqwBcWkEuAbBi2QgAC1gbez5x2MPEWcMlrrknTw95rcYrXjcYYaALXLo/qd0zFi2eS5NeuA48V9TnreBpspjsS8y0kACBGtgRfymVhe8A89PytMrL7i9j3j6mED6tjxEnYaR1SX1oMWEdTp1Weq+bTKk3VHQyR4Cbdfe6zNqak+GiSwzackwP4T79EaVUyZmLk2Q4itJkeyllxniB8yt3w72QcTV4B9AEvdsJyH+Y5AfhQeg+DuxzVf8AxVb6WEfLaRPE4fzdGwOp6Fe0q8bnEAHzi+Y1zsu92V2DwAAkNaAAGszAAynTwvYLt0aTWfQ0DnF/PNanD2xflk+nhh2XW4bMI2iZaDnpnA0/vkxFCpTzpuaII+mzWgiB0zty5r6T8xCXeK10jP8AWvj1VjS4NPF3nm2snum+/wBQk7aWWLtLEcADBcxNuUjyudBkvrvaXYlCsIfTbO4EH0Xzj4k+EKmH4qjf+Yz1AGU7gDaNequuGc5XlGY10Oki/dMDO9h7CHEuAaCfqnLw9Tcq8S7JxjiIIjK3TSwjxWFzi517x6a/p6INPcABlOpG37/ZZm15MevvIQFoFeREXvPP3ZYCM4nmmJRNzfmqa21/Aqnc859+qt5MCEhYcBrOh58pTcLVFhuY+yyiCC3WxWjAtHEDtP499FJ2KZIzjwWhlRYRVKnzUYNdanWWlsHfwK4QxCczFlHU69DSAGRK0teNV56njVopYtHU9noBU5yFbSOS5VLEc/fmtTanNZvE9ntgVC73Cgoovl81hoskqoJKcGD3CIs5+qi8j2w1zHOn6SRHS506eq5heKtNha4hsZXyFojJez7ZwHzaZDSeLSM88rwvGfJ4HiWkAG7SLgnQiDGnmpuUrtAuLIDvqDSTZt5NrCSbHXzXFr1STLSZAJtmTnedcrwtXZFSo9rmub3hIvMtjIOEaLJVot48zJMGLDoZzCZRYzVKsk3AzOpzz3k5rI7OJ/Tz81pr0QLgxpvEbLLVMRoSnRhNV0aT70CWHEg2TOA5zmlVJ8OaksiBtyQuJ/Xqgc66svKQJlORAF58STYL7d8BfDbcPRa5wlx73VxA73hk3lfMr5l8A9lHEYtlpYwy7xBA/U/+IX3jK3kt8Z+ufyX8GSqlCpK04i4kIcqlVKtJkqyAbG6UVA5WjHz348+Domvh22/nYBz+poGudvZ+c1Kcd3Uef9gv0UbiCvkXx78Pfw9X5zZLKjvIm587+yqt8bvh5R7ZtGfmd+iW8EZ5n0F0xjok6/ZDUF46efVYdGf5d8whqZJldwy98kXy2tAnPPz+6QyiNlrwzYHVBTZN7gep/C0BvVaZqwff90YKEN5BEPBKWfeapgM6KBOp0uqEbTYtNOmrw1KNl0Kbefki0lUKcaH7LaKZ29VdMt5la2n/ACj0/Cxa1j2nD19FZEaeqFpGaKy5trMcvNXbl5oQeqIO6+qkg92XO7X7KZWhxcWuaNBYixhwzOWhGa6JJ/pUE7KMfN67MQ0Gq2jUcarQ4VATUZwOAIyEgxAMxkuIWg5gSNJvb9ivrmGwwp0wxjYaMrk5kk3N8yuV2s3iEOa13+pvF90Na+WYgaX+/wB1mqttaB4yvQdt4BszwgRkGiByndeRxtSpMNsOgW5wrN5Rqe0WzB/XdZ6jxefVc2q6rkXmPBZDRJNzPVdJ8Xuud+T1G+tjWA2vGyzVceTkELMLyWqj2c45BdM4RjeVfUf8C2Syu8nvcUdBA/fzX1Ur5R/g9NKpUpOtxguHURI8gvq5KxbBYFQFWqQEJVKQqITqWCrlBKsFAwUrm/E+BFbDvZE2Pnp0gwV0VVYS1w6rUT8/4r6nA5gkRzCz1Hrp/ETIxFYT/OT/ALr+V1wajuI8vuszy62r+do2595ptJupzQsIH9k4O9wtMjDimt6wlh/uEYqKRgjdGKaVxp1LwRqPp01ppUEui07BbKTDsi04JtMzlbktlJrRckeP7oKQccvfqtDAd1m1qRoovByIT+JZuDd3ohbVp61Geiza1j3oA2RDoltajCyRXRX5eqABFwlWrFz0UhWGlFw8lIBbzKx4vB8QW7gOyLh5eiC8V2j2HK89i/hvYL6k+gDoEh+CHJa7J8frfChJumUPhQDML6q/s5uwSz2cE92cj51T+HWj+X0Wql2MBovcf8OCJvZyryOR5fszDfJqMqxZjpPQgtPkCT4L6O0zdcE9ngiCLZLb2JXJZ8tx71PuGTcgZP8AEXTKxzn66MKlapac1KK1IUgwqhFCgUlIa7oaTsEyFl7UqhtJxJi0SkPinxXiuLEVMrHhtEmBBJI+oyPSFxGtC0Y2txvc6ZkkzpcylghU8R0v2ANKNrDujaQmK0Aa1GGIh7yTqQ9ypJSordRwyGktlJGnDsPQhbKdBKpustNNyzaZD6OHWllAbJFNya18bfqjWsaWtG4VfJYbxPggpVeidJ3Kzpx6oTt6oxO3qlB6NtXmqAZef6T5qfM5HzQfxAylEao5+SUL5p/p9VXzXf0oPmHYqfN5HxWbTIPjdsEcnYJIqnZXxnZUpsNvyVX3CSXlVxnkrRhx4tx5KoP9STxE7fdRs7jyRpwws5oSz/MUJDtwgIfyVqwwsG6zYnDXD2GKjcjoRqx3+U+hTC550Hqo4O2HmfwrssasFjBUFxwvFi05iLSN27HIrTC42Jwr3gZAi4cCZBGxF0kdqVqIiqx1S4AcxpJM2vFvFbnNi/H6d6FIWWh2tRcJ4+Hk7un1WhuJpnJ7T4ha1jKKFYCH5rc+Ieay43tejSaXOeIGd/1SMbeZXzz/ABK+IWhv8Owy5wgwfpbrOskWjYlYfij49dUBZhzAyL4/+I1PM7eK8GRMkm5zJNzzKTJgWtTOFUGjdNbQnIeSSEI5TGYEm/CfI/oFqpdm7h3g0oTExaqTZWyn2cP6Hf7T+q24fCREUyfIIvKGcayUKS30KcXRuY4f9H9fstNAuOVIeIWLzjfShptWqm0DryCMF4/6Q87fZMa6of5Wf7j+FnseqqLLJxbMboqXHrweZ/CdT4ozbPVWrCm0SPFOFMbeUImuI/mHl+6M1yLSPBv7q1Y7oDeXnKU54B3PIH7qKI0Ye07Kw7Ox9PyqUSltJ5+f4Ug7DxJUUUllp2HnP6IZPJRRSiXykev5UmP5h78VFEVqTUBgnvD3tdEeoUUVqwMu/qHkpLt58JUUWaoNr3f1D/b+6MAnU+AVqKipjHcz5fsrtu62zf8A8qKKFMBnV3l+yTVwzHZsB6tCiicWs1Xsei4R8oD/AEnh9QRdcnFfBOFf9bHG8waryJ8XFRRU8TVrCfgjCCYptjqShPwjQabBqpRPanFt+HGC+Wn0/hMPw6NPx91aie1GB/4EwZOnpH4VVOzAN/MfhRROrPJX8INvM/ZW3DtBy/8AZRRZ1rrBfKGkf7ir+Vb+6iitWCNOdPQyha2Jv6flRRWjDBTJt+uiptOJibcwookI88zpqI81TXE/zev7KKIL/9k="
+                    alt="yam" class="product-image">
+                <div class="product-info">
+                    <h3>Yam</h3>
+                    <p>Good for poundo</p>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1598373182133-52452f7691ef?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Cabbage" class="product-image">
+                <div class="product-info">
+                    <h3>Bread</h3>
+                    <p>The most popular fast food in Nigeria</p>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1697346327617-c333613a349a?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Cabbage" class="product-image">
+                <div class="product-info">
+                    <h3> Cabbage</h3>
+                    <p>Great for soups and stews</p>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1708982553355-794739c6693e?q=80&w=925&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Watermelon" class="product-image">
+                <div class="product-info">
+                    <h3> Watermelon</h3>
+                    <p>Refreshing and juicy</p>
+                </div>
+            </article>
+
+
+        </section>
+
+
+
+
+        <h2 id="harvest" class="section-title">
+            Weekly Harvests
+        </h2>
+
+        <section class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Food Item</th>
+                        <th>Quantity Harvested</th>
+                        <th>Availability</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+
+                    <tr>
+                        <td>Cassava</td>
+                        <td>300 bags</td>
+                        <td><span class="status ava">Available</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>Yam</td>
+                        <td>500 bags</td>
+                        <td><span class="status sold">Sold</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>Bread</td>
+                        <td>200 loaves</td>
+                        <td><span class="status ava">Available</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>Cabbage</td>
+                        <td>150 heads</td>
+                        <td> <span class="status sold">Sold</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>Watermelon</td>
+                        <td>80 pieces</td>
+                        <td><span class="status sold">Sold</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <h2 id="about" class="section-title">About Us</h2>
+
+        <section class="about-section">
+            <div class="about-text">
+                <h3>Who We Are</h3>
+                <p>
+                    Obasanjo Farms is a locally owned agricultural business dedicated to producing
+                    fresh, organic, and sustainable food for Nigerians. We focus on quality farming
+                    practices to ensure healthy and affordable produce for everyone.
+                </p>
+
+                <p>
+                    Our mission is to feed the nation with excellence while supporting local farmers
+                    and promoting eco-friendly agriculture.
+                </p>
+            </div>
+
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=870" alt="Farm image">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2026</p>
+        <p>Created by 0xobafemi</p>
+        <small style="display: block;">
+            Built by passionate people
+        </small>
+    </footer>
+</body>
+
+</html>

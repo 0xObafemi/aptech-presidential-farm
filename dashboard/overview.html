@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Presidential Farm | Dashboard</title>
+	<link rel="stylesheet" href="dash style.css" />
+</head>
+
+<body>
+	<div class="dashboard-container">
+		<aside>
+			<a href="overview.html" class="logo">Presidential Farm</a>
+			<nav class="nav-menu">
+				<a href="overview.html">Farm Overview</a>
+				<a href="equipment.html">Equipments</a>
+				<a href="produce.html">Crop Produce</a>
+				<a href="inventory.html">Inventory</a>
+			</nav>
+		</aside>
+		<header>
+			<div class="search-area">
+				<input type="text" placeholder="Search farm resources..." />
+			</div>
+			<div class="user-info">
+				<div style="text-align: right">
+					<p style="font-weight: bold; font-size: 0.9rem">Farmer John</p>
+					<p style="font-size: 0.75rem; color: var(--text-muted)">
+						Owner / Manager
+					</p>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section class="card stat-card">
+				<span>Soil Moisture</span>
+				<h2>42%</h2>
+				<p style="
+							color: var(--success);
+							font-weight: bold;
+							font-size: 0.85rem;
+						">
+					✓ Optimal
+				</p>
+			</section>
+
+			<section class="card stat-card">
+				<span>Live Orders</span>
+				<h2>28</h2>
+				<p style="
+							color: var(--accent-clay);
+							font-weight: bold;
+							font-size: 0.85rem;
+						">
+					Pending
+				</p>
+			</section>
+			<section class="card stat-card">
+				<span>Weekly Yield</span>
+				<h2>1.4 Tons</h2>
+				<p style="
+							color: var(--success);
+							font-weight: bold;
+							font-size: 0.85rem;
+						">
+					↑ 12%
+				</p>
+			</section>
+
+			<section class="card featured-chart">
+				<h3 style="margin-bottom: 1rem">Harvest Production Detail</h3>
+				<table class="data-table">
+					<thead>
+						<tr>
+							<th>Crop</th>
+							<th>Field</th>
+							<th>Status</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Heirloom Potatoes</td>
+							<td>North Field B</td>
+							<td><span class="badge badge-success">Stored</span></td>
+						</tr>
+						<tr>
+							<td>Honeycrisp Apples</td>
+							<td>Orchard East</td>
+							<td><span class="badge badge-warning">Drying</span></td>
+						</tr>
+						<tr>
+							<td>Baby Spinach</td>
+							<td>Greenhouse 1</td>
+							<td><span class="badge badge-success">Stored</span></td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section class="card inventory-list">
+				<h3>Stock Levels</h3>
+				<div class="stock-container">
+					<div class="stock-item">
+						<span>Fertilizer</span>
+						<span>15%</span>
+						<div class="progress-bar">
+							<div style="
+										width: 15%;
+										height: 100%;
+										background: var(--accent-clay);
+										border-radius: 4px;
+									"></div>
+						</div>
+					</div>
+					<div class="stock-item">
+						<span>Livestock Feed</span>
+						<span>64%</span>
+						<div class="progress-bar">
+							<div style="
+										width: 64%;
+										height: 100%;
+										background: var(--farm-green);
+										border-radius: 4px;
+									"></div>
+						</div>
+					</div>
+				</div>
+
+				<h3 style="border-top: 1px solid #eee; padding-top: 1rem">
+					Recent Activity
+				</h3>
+				<div style="display: grid; gap: 8px; font-size: 0.85rem">
+					<div>🛒 Order #4020 processed</div>
+					<div>🥛 Dairy pickup confirmed</div>
+				</div>
+			</section>
+
+			<section class="card task-list">
+				<h3>Daily Farm Tasks</h3>
+				<div class="task-grid-internal">
+					<div class="task-item">
+						<strong>Morning Feed</strong>
+						<p style="font-size: 0.8rem;">Check all livestock sectors.</p>
+					</div>
+					<div class="task-item" style="border-left-color: var(--accent-clay);">
+						<strong>Irrigation Check</strong>
+						<p style="font-size: 0.8rem;">Section D sensor low.</p>
+					</div>
+					<div class="task-item" style="border-left-color: var(--success);">
+						<strong>Produce Sorting</strong>
+						<p style="font-size: 0.8rem;">Prepare veg boxes.</p>
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
+</body>
+
+</html>

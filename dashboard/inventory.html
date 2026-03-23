@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Presidential Farm | Dashboard</title>
+	<link rel="stylesheet" href="dash style.css" />
+</head>
+
+<body>
+	<div class="dashboard-container">
+		<aside>
+			<a href="overview.html" class="logo">Presidential Farm</a>
+			<nav class="nav-menu">
+				<a href="overview.html">Farm Overview</a>
+				<a href="equipment.html">Equipments</a>
+				<a href="produce.html">Crop Produce</a>
+				<a href="inventory.html">Inventory</a>
+			</nav>
+		</aside>
+		<header>
+			<div class="search-area">
+				<input type="text" placeholder="Search farm resources..." />
+			</div>
+			<div class="user-info">
+				<div style="text-align: right">
+					<p style="font-weight: bold; font-size: 0.9rem">Farmer John</p>
+					<p style="font-size: 0.75rem; color: var(--text-muted)">
+						Owner / Manager
+					</p>
+				</div>
+			</div>
+		</header>
+<main>
+
+    <section class="card">
+        <h2>Inventory</h2>
+        <p>Track stock levels and supplies.</p>
+    </section>
+
+    <section class="card">
+        <h3>Stock Status</h3>
+
+        <div class="stock-item">
+            <span>Fertilizer</span>
+            <span>40%</span>
+            <div class="progress-bar">
+                <div style="width:40%; height:100%; background: var(--accent-clay);"></div>
+            </div>
+        </div>
+
+        <div class="stock-item">
+            <span>Seeds</span>
+            <span>75%</span>
+            <div class="progress-bar">
+                <div style="width:75%; height:100%; background: var(--farm-green);"></div>
+            </div>
+        </div>
+
+    </section>
+
+</main>	
+	</div>
+</body>
+
+</html>
