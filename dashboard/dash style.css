@@ -70,7 +70,7 @@ aside {
 
 .nav-menu a:hover {
     background-color: var(--success);
-    color: rgb(167, 30, 30);
+    color: black;
 }
 
 header {
